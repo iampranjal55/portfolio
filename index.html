@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css" />
 
   <!-- Favicon  -->
-  <link rel="shortcut icon" href="main/icon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/icon.ico" type="image/x-icon"/>
 </head>
 
 <body>
@@ -227,7 +227,9 @@
       backDelay: 1000,
     });
     }
-let ans=setTimeout(startText,3000)
+
+let ans=setTimeout(startText,3000);
+document.querySelector("#submit-btn").addEventListener("click",gmail);
 function linkdl() {
   window.location.href = "https://www.linkedin.com/in/pranjal-gupta-5177b7257/";
 }
